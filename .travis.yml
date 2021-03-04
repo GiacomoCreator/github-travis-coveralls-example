@@ -6,4 +6,5 @@ jdk: openjdk8
 install: true
 
 script:
-  - mvn com.examples.mymavenproject/pom.xml clean verify
+  - cd mymavenproject 
+  - mvn clean verify
