@@ -8,3 +8,7 @@ install: true
 script:
   - cd mymavenproject 
   - mvn clean verify
+  
+cache:
+  directories:
+    - $HOME/.m2
